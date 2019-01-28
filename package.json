@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "prepare": "npm run build"
+    "prepare": "vue-cli-service build --target lib --name mylib ./src/components/index.ts"
   },
   "dependencies": {
     "vue": "^2.5.21"
